@@ -1,0 +1,26 @@
+PROJECT_NAME           = "UOCTE internal documentation"
+PROJECT_NUMBER         = "1.0"
+PROJECT_BRIEF          = "unified OCT explorer"
+OUTPUT_DIRECTORY       = @PROJECT_BINARY_DIR@/intdoc
+HTML_OUTPUT            = .
+TAB_SIZE               = 2
+BUILTIN_STL_SUPPORT    = YES
+INPUT                  = src
+FILE_PATTERNS          = *.hpp *.cpp
+RECURSIVE              = YES
+EXAMPLE_PATH           = 
+GENERATE_LATEX         = NO
+
+INLINE_INHERITED_MEMB  = YES
+MULTILINE_CPP_IS_BRIEF = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_ANON_NSPACES   = YES
+HIDE_UNDOC_CLASSES     = NO
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_FRIEND_COMPOUNDS  = NO
+SORT_MEMBER_DOCS       = NO
+INTERNAL_DOCS          = YES
+VERBATIM_HEADERS       = NO
+SHOW_USED_FILES        = YES
